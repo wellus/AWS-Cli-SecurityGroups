@@ -1,0 +1,4 @@
+	#Create the SG
+		 output=$(aws ec2 create-security-group --group-name ENTERNAME --description "ENTERDESC" --vpc-id ENTERVCP)
+	#Add the rules
+		aws ec2 authorize-security-group-ingress --group-id $output --protocol tcp --port PORT --cidr 999.999.999.999/99
