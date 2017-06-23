@@ -1,0 +1,2 @@
+#List all security groups by name in a table
+aws ec2 describe-security-groups --region eu-west-1 --output table --query 'SecurityGroups[*].GroupName'
