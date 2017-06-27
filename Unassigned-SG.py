@@ -1,5 +1,5 @@
 #Lists all security groups which are unassigned to an instance or ELB
-
+#ensure permission on file is correct chmod +x Unassigned-SG.py
 #!/usr/bin/env python
 import boto3
 
