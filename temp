@@ -18,3 +18,6 @@ vi  awscreds.conf
 ##Creating py files 
 chmod +x list-unused-sq.py
 
+##Install Pything Boto3
+sudo python -m pip install boto3
+
