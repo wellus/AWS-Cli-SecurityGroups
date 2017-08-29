@@ -1,3 +1,11 @@
+
+##Creating py files edit the permissions 
+chmod +x list-unused-sq.py
+
+##Install Pything Boto3
+sudo python -m pip install boto3
+
+
 #Lists all security groups which are unassigned to an instance or ELB
 #ensure permission on file is correct chmod +x Unassigned-SG.py
 #!/usr/bin/env python
